@@ -247,6 +247,19 @@ h1 {
     
 }
 
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%) rotateY(180deg);
+    transition: filter 1.5s, transform 1s ease-out, opacity 2s ease-out;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%) rotateY(180deg);
+} 
+
 
 
 
