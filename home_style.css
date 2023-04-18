@@ -249,7 +249,7 @@ h1 {
 
 
 /* scroll */
-.hidden{
+/* .hidden{
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%) rotateY(180deg);
@@ -260,7 +260,7 @@ h1 {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0%) rotateY(180deg);
-}
+} */
 
 
 
@@ -277,8 +277,6 @@ h1 {
     .milton{
         overflow: hidden;
         right: 10vw;
-        
-        
         
     }
 
