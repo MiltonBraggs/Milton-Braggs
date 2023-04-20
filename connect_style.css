@@ -172,8 +172,10 @@ body{
 
 
 .section-1 h2{
-    color: white;
+    font-size: 3rem;
+    color: var(--accent);
     margin: 5rem 0;
+    pointer-events: none;
 }
 
 
@@ -212,7 +214,7 @@ body{
     content: '';
     width: 100%;
     height: 100%;
-    top:-80px;
+    top:-85px;
     left: 0;
     background: linear-gradient(45deg,#ed1c94,#ffec17);
     position: absolute;
@@ -229,4 +231,26 @@ body{
 
 .link a .fa-brands:hover{
     color: black;
+}
+
+/* scroll */
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: filter 1.5s, transform 0.4s ease-out, opacity 2s ease-out;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+}
+
+@media (max-width: 39em){
+
+    .link{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
