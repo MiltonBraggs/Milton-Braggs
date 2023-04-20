@@ -245,11 +245,11 @@ h1{
 .section-2 h2{
 
     margin-bottom: 3rem;
-    border: var(--bg) 2px solid;
+    border: var(--mid) 2px solid;
     padding: 1rem;
-    background: var(--bg);
+    background: var(--mid);
     box-shadow: 0 0 0.5em black;
-    
+    border-radius: 12px;
 }
 
 .videos{
@@ -259,10 +259,12 @@ h1{
     align-items: center;
     gap: 2rem;
     width: 100%;
+   
 }
 .videos iframe{
     max-height: 200px;
     max-width: 355.56px;
+    box-shadow: 0 0 0.5em black;
     
 }
 
